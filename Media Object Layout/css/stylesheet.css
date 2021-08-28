@@ -1,0 +1,29 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 70em;
+  }
+  .media-object {
+    margin-left: 1em;
+    order: 1;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+  }
+  p, h3{
+      text-align: justify;
+       font-family: cursive;
+       
+  }
